@@ -149,10 +149,6 @@ h5 {
 
 /* new code starts here */
 
-* {
-	border: 1px red solid;
-}
-
 .flex-header {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -187,8 +183,10 @@ h5 {
 
 .navbar .link:hover,
 .navbar .link:active {
-	color: white;
-	background: red;
+	box-sizing: border-box;
+	color: black;
+	margin-bottom: -3px !important;
+	border-bottom: 3px solid black;
 }
 
 .navbar .brand {
@@ -204,7 +202,9 @@ h5 {
 }
 
 
-
+.feature-block p {
+	display: block;
+}
 
 
 /*main-CTA stuff*/
@@ -436,4 +436,17 @@ button a {
 .feature-block button a {
 	text-decoration: none;
 	color: black;
+}
+
+#hello {
+
+}
+
+div.deskfeature {
+	max-width: 80vw;
+	margin: auto;
+}
+
+button {
+	max-width: 100% !important;
 }
