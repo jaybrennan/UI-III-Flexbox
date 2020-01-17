@@ -393,6 +393,14 @@ button a {
 		border-bottom: 1px solid black;
 	}
 
+	.feature2 {
+		margin: 3em 0;
+		padding-bottom: 2em;
+		margin-bottom: 0em;
+		border-bottom: 1px solid black;
+	}
+
+
 .feature h1 {
 	font-size: 1.5em;
 	
@@ -449,4 +457,16 @@ div.deskfeature {
 
 button {
 	max-width: 100% !important;
+}
+
+img.middle-img {
+	max-width: 100% !important;
+}
+
+#aboutme {
+	margin-top: -125px !important;
+	margin-bottom: 125px !important;
+	font-size: 3em !important;
+	color: white;
+	text-shadow: 3px 3px 10px black;
 }
